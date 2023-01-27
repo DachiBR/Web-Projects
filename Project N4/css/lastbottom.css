@@ -1,0 +1,58 @@
+.last-bottom{
+    height:400px;
+    width:100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    margin-top:50px;
+    margin:auto;
+    
+}
+.lp1{
+    padding-top: 50px;
+    color: #5bccf6;
+    font-size: xx-large;
+    font-weight: bold;
+    animation-name: lp1;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+@keyframes lp1{
+    0%{
+       color: #48a1c1;
+    }
+    25%{
+       color: #25aee0;
+    }
+    50%{
+       color: #006e96;
+    }
+    75%{
+       color: #25aee0;
+    }
+    100%{
+       color: #48a1c1;
+    }
+}
+
+
+.lp2{
+    color:#48a1c1;
+}
+.bottombutton1{
+    color:white;
+    background-color: #dcb724;
+    border:none;
+    border-radius: 30px;
+    height:30px;
+    font-size: x-small;
+    width: 100px;
+}
+.bottombutton1:hover{
+    cursor:pointer;
+    transition: 0.5s;
+    background-color: #f0c724;
+}
+
+.blp1{
+    text-align: center;
+}
+

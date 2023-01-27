@@ -1,0 +1,132 @@
+.boxes{
+    margin-top: 50px;
+    height: 600px;
+    width:100%;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.box1{
+    text-align: center;
+    display: inline-block;
+    height:350px;
+    width:250px;
+    box-shadow: rgba(174, 174, 174, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+.box1 span{
+    color:#5bccf6;
+}
+
+.box2{
+    text-align: center;
+    display: inline-block;
+    height:450px;
+    width:270px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    margin-top:20px;
+}
+.box2 span{
+    color:#5bccf6;
+}
+
+.box3{
+    margin-top: 40px;
+    text-align: center;
+    display: inline-block;
+    height:350px;
+    width:250px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.box3 span{
+    color:#5bccf6;
+}
+.hr {
+    width: 180px;
+    height: 0.2px;
+    background-color:rgb(140, 140, 140);
+    border-color: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+.purple{
+    color:#5bccf6;
+}
+
+.pp{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius:  20px;
+    border-top-left-radius: 20px;
+    margin-top: 0;
+    height:40px;
+    background-color: #dcb724;
+    color:white;
+}
+
+.pp1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius:  20px;
+    border-top-left-radius: 20px;
+    margin-top: 0;
+    height:40px;
+    background-color: #5bccf6;
+    color:white;
+
+}
+
+.s{
+    color:rgb(176, 176, 176) !important;
+
+}
+
+.ppp1{
+    color:#5bccf6 !important;
+}
+
+.midbuto1{
+    height:40px;
+    width:150px;
+    border-color: #dcb724;
+    background-color: white;
+    color:#dcb724;
+    text-align: center;
+    border-radius: 20px;
+    border: solid;
+}
+.midbuto1:hover{
+    cursor:pointer;
+    transition: 1s;
+    background-color: #e0b713;
+    color:white;
+}
+
+.midbuto2{
+    height:40px;
+    width:150px;
+    border: none;
+    background-color: #5bccf6;
+    color:white;
+    text-align: center;
+    border-radius: 20px;
+  
+}
+.midbuto2:hover{
+    cursor:pointer;
+    transition: 1s;
+    background-color: #2bafdf;
+    color:white;
+}

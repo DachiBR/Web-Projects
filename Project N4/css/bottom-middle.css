@@ -1,0 +1,55 @@
+.botmid1{
+    margin-top:60px;
+    height:300px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pbtm1{
+    text-align: center;
+    color: #5bccf6;
+    font-size: xx-large;
+    font-weight: 800;
+    animation-name: pbtm1;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+@keyframes pbtm1{
+    0%{
+        color: #48a1c1;
+     }
+     25%{
+        color: #25aee0;
+     }
+     50%{
+        color: #006e96;
+     }
+     75%{
+        color: #25aee0;
+     }
+     100%{
+        color: #48a1c1;
+     }
+}
+.bottom-middle{
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    width:100%;
+    justify-items: auto;
+    align-items: center;
+}
+.rame{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ramme1{
+    color:rgb(184, 184, 184);
+}
+
+.ramme2{
+    color:#5bccf6;
+}

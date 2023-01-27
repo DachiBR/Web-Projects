@@ -1,0 +1,43 @@
+.text{
+    text-align: center;
+    font-size: xx-large;
+    box-shadow: 0 5px 2px -5px rgb(180, 180, 180);
+    height:10%;
+    width: 100%;
+    padding-top:3%;
+    padding-bottom: 3%;
+}
+.table1{
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    padding-top: 8%;
+    padding-bottom: 10%;
+    background-image: url("./background.jpg");
+}
+.table{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(88, 53, 203);
+    border: 1px white solid;
+    border-radius: 6px;
+}
+.table1row{
+    color:white;
+    background-color:rgb(88, 53, 203);
+}
+.table2row{
+    color:white;
+    background-color: rgb(88, 53, 203)
+}
+
+
+.txt1{
+}
+.txt2{
+    color:rgb(88, 53, 203);
+}
